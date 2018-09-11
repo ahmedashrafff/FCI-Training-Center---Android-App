@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mycoursesmenu"
+        android:icon="@drawable/ic_note_multiple_black_24dp"
+        android:title="My Courses" />
+    <item
+        android:id="@+id/accountmenu"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        android:title="Account" />
+    <item
+        android:id="@+id/aboutus"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="About Us" />
+    <item
+        android:id="@+id/contactus"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/logoutmenu"
+        android:icon="@drawable/logout"
+        android:title="Log Out" />
+</menu>

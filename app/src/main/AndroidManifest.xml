@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shade.fcitrainingcenter">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" >
+
+
+        </activity>
+
+
+
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.Splash"
+            android:theme="@style/SplashTheme">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.MyCourses"
+            android:label="@string/title_activity_my_courses"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.MyAccount"
+            android:label="@string/title_activity_my_account"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.CourseView"
+            android:label="@string/title_activity_course_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.StartScreen"
+            android:label="@string/title_activity_start_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.UserAccount"
+            android:label="@string/title_activity_user_account"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name="com.example.shade.fcitrainingcenter.ClosedCourses"
+            android:label="@string/title_activity_closed_courses"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
